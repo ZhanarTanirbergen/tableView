@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9A09B7CC1FD782FE0077E338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09B7CB1FD782FE0077E338 /* AppDelegate.swift */; };
-		9A09B7CE1FD782FE0077E338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09B7CD1FD782FE0077E338 /* ViewController.swift */; };
 		9A09B7D11FD782FE0077E338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A09B7CF1FD782FE0077E338 /* Main.storyboard */; };
 		9A09B7D31FD782FE0077E338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A09B7D21FD782FE0077E338 /* Assets.xcassets */; };
 		9A09B7D61FD782FE0077E338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A09B7D41FD782FE0077E338 /* LaunchScreen.storyboard */; };
 		9A09B7E11FD782FF0077E338 /* FinalPreparation2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09B7E01FD782FF0077E338 /* FinalPreparation2Tests.swift */; };
 		9A09B7EC1FD782FF0077E338 /* FinalPreparation2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09B7EB1FD782FF0077E338 /* FinalPreparation2UITests.swift */; };
+		9A09B7FA1FD787210077E338 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09B7F91FD787210077E338 /* SecondViewController.swift */; };
+		9A09B7FC1FD787780077E338 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09B7FB1FD787780077E338 /* TableViewController.swift */; };
+		9A09B7FE1FD789070077E338 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09B7FD1FD789070077E338 /* ApiManager.swift */; };
+		9A09B8001FD78EF90077E338 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09B7FF1FD78EF90077E338 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		9A09B7C81FD782FE0077E338 /* FinalPreparation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalPreparation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A09B7CB1FD782FE0077E338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A09B7CD1FD782FE0077E338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A09B7D01FD782FE0077E338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A09B7D21FD782FE0077E338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A09B7D51FD782FE0077E338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		9A09B7E71FD782FF0077E338 /* FinalPreparation2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalPreparation2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A09B7EB1FD782FF0077E338 /* FinalPreparation2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPreparation2UITests.swift; sourceTree = "<group>"; };
 		9A09B7ED1FD782FF0077E338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A09B7F91FD787210077E338 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9A09B7FB1FD787780077E338 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9A09B7FD1FD789070077E338 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		9A09B7FF1FD78EF90077E338 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				9A09B7CB1FD782FE0077E338 /* AppDelegate.swift */,
-				9A09B7CD1FD782FE0077E338 /* ViewController.swift */,
 				9A09B7CF1FD782FE0077E338 /* Main.storyboard */,
 				9A09B7D21FD782FE0077E338 /* Assets.xcassets */,
 				9A09B7D41FD782FE0077E338 /* LaunchScreen.storyboard */,
 				9A09B7D71FD782FE0077E338 /* Info.plist */,
+				9A09B7F91FD787210077E338 /* SecondViewController.swift */,
+				9A09B7FB1FD787780077E338 /* TableViewController.swift */,
+				9A09B7FD1FD789070077E338 /* ApiManager.swift */,
+				9A09B7FF1FD78EF90077E338 /* Person.swift */,
 			);
 			path = FinalPreparation2;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A09B7CE1FD782FE0077E338 /* ViewController.swift in Sources */,
+				9A09B8001FD78EF90077E338 /* Person.swift in Sources */,
+				9A09B7FE1FD789070077E338 /* ApiManager.swift in Sources */,
+				9A09B7FA1FD787210077E338 /* SecondViewController.swift in Sources */,
+				9A09B7FC1FD787780077E338 /* TableViewController.swift in Sources */,
 				9A09B7CC1FD782FE0077E338 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JYCN42BHMJ;
 				INFOPLIST_FILE = FinalPreparation2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhanara.FinalPreparation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JYCN42BHMJ;
 				INFOPLIST_FILE = FinalPreparation2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhanara.FinalPreparation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
